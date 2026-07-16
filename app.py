@@ -9,7 +9,7 @@ tenure = st.number_input('Tenure (in months)', min_value=0, max_value=100, value
 monthly_charges = st.number_input('Monthly Charges', min_value=0.0, max_value=1000.0, value=70.0)   
 contract = st.selectbox('Contract Type', ['Month-to-month', 'One year', 'Two year'])
 internet_service = st.selectbox('Internet Service', ['DSL', 'Fiber optic', 'No'])
-gender = st.selectbox('Gender', ['Male', 'female'])
+gender = st.selectbox('Gender', ['Male', 'Female'])
 senior_citizen = st.number_input('Senior Citizen', min_value=0, max_value=1, value=0)
 partner = st.selectbox('Partner', ['Yes', 'No'])
 dependents = st.selectbox('Dependents', ['Yes', 'No'])
